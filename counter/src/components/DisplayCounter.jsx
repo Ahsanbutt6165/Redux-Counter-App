@@ -5,7 +5,7 @@ const DisplayCounter = () => {
   const { counterVal } = useSelector((store) => store.counter);
   return (
     <div>
-      <p className="lead mb-4">Counter current value: {counterVal}</p>
+      <p className="lead mb-4">Counter cuurrent value: {counterVal}</p>
     </div>
   );
 };
